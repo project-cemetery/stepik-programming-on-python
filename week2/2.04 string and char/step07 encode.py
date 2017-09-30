@@ -16,6 +16,7 @@ def encode(genome):
                 cnt += 1
         prev_cnt += cnt
         genome_encoded += str(cnt)
+
     return genome_encoded
 
 
