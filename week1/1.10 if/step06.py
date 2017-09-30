@@ -3,12 +3,7 @@ def is_leap_year(year):
 
 
 def get_year_status(year):
-    if is_leap_year(year):
-        year_status = 'Високосный'
-    else:
-        year_status = 'Обычный'
-
-    return year_status
+    return 'Високосный' if is_leap_year(year) else 'Обычный'
 
 
 print(get_year_status(int(input())))
