@@ -4,5 +4,6 @@ def get_alarm_hours_and_minutes(sleep_duration_minutes, bedtime_hours, bedtime_m
 
     return (alarm_minutes // 60), (alarm_minutes % 60)
 
+
 for param in get_alarm_hours_and_minutes(int(input()), int(input()), int(input())):
     print(param)
