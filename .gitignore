@@ -98,3 +98,5 @@ ENV/
 # Data and Output
 /week3/3.04 files/data/*
 /week3/3.04 files/output/*
+/week3/3.06 additional modules/data/*
+/week3/3.06 additional modules/output/*
