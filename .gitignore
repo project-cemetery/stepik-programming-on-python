@@ -95,3 +95,6 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# Data and Output
+/week3/3.04 files/data/*
+/week3/3.04 files/output/*
